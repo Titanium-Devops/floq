@@ -1,0 +1,14 @@
+# Build artifacts
+/target
+/dist
+node_modules/
+
+# OS
+.DS_Store
+
+# Tauri generated
+src-tauri/gen/schemas
+
+# Local env
+.env
+.env.*
