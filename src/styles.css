@@ -323,4 +323,4 @@ select:focus, input:focus { border-color: var(--accent); }
 .tree-row .chev { color: var(--faint); font-size: 9px; width: 9px; }
 .exec-cmd { display: flex; gap: 8px; padding: 8px; }
 
-.logo-wordmark { height: 22px; width: auto; }
+.logo-ic { width: 30px; height: 30px; }

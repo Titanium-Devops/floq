@@ -4,7 +4,7 @@ import { invoke } from "@tauri-apps/api/core";
 import { open } from "@tauri-apps/plugin-dialog";
 import { isPermissionGranted, requestPermission, sendNotification } from "@tauri-apps/plugin-notification";
 import "./styles.css";
-import wordmark from "./assets/floq-wordmark.png";
+import logoIcon from "./assets/floq-mint.png";
 
 // ---- types ----
 interface Repo { id: string; remote: string | null; path: string | null; }
@@ -301,7 +301,7 @@ function App() {
     <div className="app">
       {/* ================= LEFT ================= */}
       <aside className="sidebar">
-        <div className="logo"><img src={wordmark} alt="Floq" className="logo-wordmark" /></div>
+        <div className="logo"><img src={logoIcon} alt="" className="logo-ic" /> Floq</div>
 
         <div className="section" style={{ flex: 1 }}>
           <div className="section-title">Projects</div>
